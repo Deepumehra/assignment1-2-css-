@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no 9</title>
+    <style>
+        #name:focus{
+            background-color: rgb(184, 181, 181);
+            color: black;
+        }
+        #father_name:focus{
+            background-color: rgb(184, 181, 181);color: black;
+        }
+        #dob:focus{
+            background-color: rgb(184, 181, 181);color: black;
+        }
+        #gneder:focus{
+            background-color: rgb(184, 181, 181);color: black;
+        }
+        #nationality:focus{
+            background-color: rgb(184, 181, 181);color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="regForm" method="get">
+        <label for="Name">Name:
+        </label>
+        <input id="name" type="text" placeholder="Enter Your Name">
+        <label for="father name">Father name:
+        </label>
+        <input type="text" placeholder="Enter your father name" id="father_name">
+        <label for="DOB">Date of birth
+        </label>
+        <input type="datetime-local" id="dob">
+        <label for="Gender" id="gender">Gender
+        </label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+         </select>
+        <label for="Nationality" id="nationality">Nationality
+        </label>
+        <input type="text" id="nationality">    
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
